@@ -1,0 +1,14 @@
+Publishers & Subscribers = Observer pattern
+- Much like a magazine subscription.
+
+'Official' Definition:
+    The observer pattern defines a one-to-many dependency between objects so that when
+    one object changes state, all of its dependents are notified and updated automatically.
+
+Bullet Points
+- The observer pattern defines a one-to-many relationship between objects
+- Subjects update observers using a common interface
+- Observers of any concrete type can participate in the pattern as long as they implement the Observer interface.
+- Observers are loosely coupled in that the Subject knows nothing about them, other than that they implement the Observer interface.
+- You can push or pull data from the Subject when using the pattern. (Pull is considered more correct)
+- The Observer pattern is related to the Publish/Subscribe pattern, which is for more complex situations with multiple subjects and/or multiple message types.
